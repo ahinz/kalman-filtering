@@ -1,6 +1,6 @@
 # Kalman Filtering
 
-Basic xample of a Kalman Filter
+Basic example of a Kalman Filter
 from
 [CMU](http://biorobotics.ri.cmu.edu/papers/sbp_papers/integrated3/kleeman_kalman_basics.pdf) and
 [https://en.wikipedia.org/wiki/Kalman_filter](https://en.wikipedia.org/wiki/Kalman_filter).
@@ -17,7 +17,9 @@ To generate graphs open a repl and run:
 (save number-of-data-points)
 ```
 
-Then open `assets/viz.html` to see the result:
+Then open `assets/viz.html` to see the result. The green line is the
+modeled fall, squares are measurements and the red line is the filter
+estimate.
 
 ![Example Graph](https://github.com/ahinz/kalman-filtering/blob/master/assets/ex.png)
 
